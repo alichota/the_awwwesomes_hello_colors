@@ -6,10 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/styles.css" type="text/css">
   <link rel="stylesheet" href="css/bootstrap-grid.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700|Prata&display=swap" rel="stylesheet">
 </head>
   <body>
     <nav>
-      <ul>
+      <ul class="navigation">
         <li>the offer</li>
         <li>portfolio</li>
         <li>about us</li>
@@ -26,13 +27,13 @@
       <!--right column-->
       <section class="col right-col">
         <img src="img/cactus.jpg"  alt="Cactus "/>
-        <p>Photo by Nicole Honeywill</p>
+        <p>Photo by Nicole Honeywill1</p>
       </section>
     </header>
     <main class="container">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+      <p class="scroll"> Scroll down Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
       <!--works-->
-      <section>
+      <section class="works">
 
 
         <h2>works</h2>
@@ -86,7 +87,7 @@
       </section>
 
       <!--my team-->
-      <section>
+      <section class="myteam">
         <h2>my team</h2>
         <div class="row">
           <div class="col-md-6">
@@ -112,30 +113,42 @@
       </section>
 
       <!--contact-->
-      <section>
+      <section class="contact">
         <h2>contact</h2>
-        <p>Email: youremail@youremail.com<p>
-        <p>Our office is located<br>
-        in the heart of Warsaw</p>
+          <div class="row">
+            <div class="col">
+              <p>Email: youremail@youremail.com<p>
+              <p>Our office is located<br>
+              in the heart of Warsaw</p>
 
-        <p>Feel free to say hello!</p>
+              <p>Feel free to say hello!</p>
 
-        <p>Warsaw St. 23/21<br>
-        03-323 Warsaw,<br>
-        POLAND
-        </p>
-        <img src="img/contact1.jpg" alt=""/>
-        <img src="img/contact2.jpg" alt=""/>
+              <p>Warsaw St. 23/21<br>
+              03-323 Warsaw,<br>
+              POLAND
+              </p>
+          </div>
+          <div class="col">
+            <img src="img/contact1.jpg" alt=""/>
+          </div>
+          <div class="col">
+            <img src="img/contact2.jpg" alt=""/>
+          </div>
+
       </section>
     </main>
 
     <footer>
-      <a href=""><img src="img/twitter.svg" alt="Twitter icon"/></a>
-      <a href=""><img src="img/facebook.svg" alt="Facebook icon"/></a>
-      <a href=""><img src="img/pinterest.svg" alt="Pinterest icon"/></a>
-      <a href=""><img src="img/instagram.svg" alt="Instagram icon" /></a>
-      <p>designed with love by Aga Naplocha from The Awwwwesomes<br>
-      wwww.theawwwesomes.org, @theawwwesomes</p>
+      <div class="container">
+        <div class="social-icons-container">
+          <a href=""><img src="img/twitter.svg" class="social-icon" alt="Twitter icon"/></a>
+          <a href=""><img src="img/facebook.svg" class="social-icon" alt="Facebook icon"/></a>
+          <a href=""><img src="img/pinterest.svg" class="social-icon" alt="Pinterest icon"/></a>
+          <a href=""><img src="img/instagram.svg" class="social-icon" alt="Instagram icon" /></a>
+        </div>
+        <p>designed with love by Aga Naplocha from The Awwwwesomes<br>
+        wwww.theawwwesomes.org, @theawwwesomes</p>
+      </div>
     </footer>
   </body>
 </html>
